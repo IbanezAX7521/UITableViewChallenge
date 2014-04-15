@@ -46,7 +46,7 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 2;
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -82,7 +82,7 @@
         cell.textLabel.text = @"another section";
     }
     else{
-        cell.textLabel.text = [NSString stringWithFormat:@"Row %i", indexPath.row];
+        cell.textLabel.text = [NSString stringWithFormat:@"cell row %i", indexPath.row];
     }
     
     return cell;

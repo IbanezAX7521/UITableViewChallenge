@@ -1,5 +1,5 @@
 //
-//  JALViewController.h
+//  JALTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Jeffrey Linn on 4/16/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JALViewController : UIViewController
+@interface JALTableViewController : UITableViewController
 
 @end

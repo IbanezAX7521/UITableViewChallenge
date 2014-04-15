@@ -14,13 +14,13 @@
 		F945A8BA18FDF4A1005F55B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F945A8B918FDF4A1005F55B7 /* main.m */; };
 		F945A8BE18FDF4A1005F55B7 /* JALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F945A8BD18FDF4A1005F55B7 /* JALAppDelegate.m */; };
 		F945A8C118FDF4A1005F55B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F945A8BF18FDF4A1005F55B7 /* Main.storyboard */; };
-		F945A8C418FDF4A1005F55B7 /* JALViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F945A8C318FDF4A1005F55B7 /* JALViewController.m */; };
 		F945A8C618FDF4A1005F55B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F945A8C518FDF4A1005F55B7 /* Images.xcassets */; };
 		F945A8CD18FDF4A1005F55B7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F945A8CC18FDF4A1005F55B7 /* XCTest.framework */; };
 		F945A8CE18FDF4A1005F55B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F945A8AD18FDF4A1005F55B7 /* Foundation.framework */; };
 		F945A8CF18FDF4A1005F55B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F945A8B118FDF4A1005F55B7 /* UIKit.framework */; };
 		F945A8D718FDF4A1005F55B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F945A8D518FDF4A1005F55B7 /* InfoPlist.strings */; };
 		F945A8D918FDF4A1005F55B7 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F945A8D818FDF4A1005F55B7 /* UITableViewController_Challenge_SolutionTests.m */; };
+		F945A8E418FDF50C005F55B7 /* JALTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F945A8E318FDF50C005F55B7 /* JALTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		F945A8BC18FDF4A1005F55B7 /* JALAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JALAppDelegate.h; sourceTree = "<group>"; };
 		F945A8BD18FDF4A1005F55B7 /* JALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JALAppDelegate.m; sourceTree = "<group>"; };
 		F945A8C018FDF4A1005F55B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F945A8C218FDF4A1005F55B7 /* JALViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JALViewController.h; sourceTree = "<group>"; };
-		F945A8C318FDF4A1005F55B7 /* JALViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JALViewController.m; sourceTree = "<group>"; };
 		F945A8C518FDF4A1005F55B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F945A8CB18FDF4A1005F55B7 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F945A8CC18FDF4A1005F55B7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F945A8D418FDF4A1005F55B7 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		F945A8D618FDF4A1005F55B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F945A8D818FDF4A1005F55B7 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		F945A8E218FDF50C005F55B7 /* JALTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JALTableViewController.h; sourceTree = "<group>"; };
+		F945A8E318FDF50C005F55B7 /* JALTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JALTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				F945A8BC18FDF4A1005F55B7 /* JALAppDelegate.h */,
 				F945A8BD18FDF4A1005F55B7 /* JALAppDelegate.m */,
 				F945A8BF18FDF4A1005F55B7 /* Main.storyboard */,
-				F945A8C218FDF4A1005F55B7 /* JALViewController.h */,
-				F945A8C318FDF4A1005F55B7 /* JALViewController.m */,
+				F945A8E218FDF50C005F55B7 /* JALTableViewController.h */,
+				F945A8E318FDF50C005F55B7 /* JALTableViewController.m */,
 				F945A8C518FDF4A1005F55B7 /* Images.xcassets */,
 				F945A8B418FDF4A1005F55B7 /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F945A8BE18FDF4A1005F55B7 /* JALAppDelegate.m in Sources */,
-				F945A8C418FDF4A1005F55B7 /* JALViewController.m in Sources */,
 				F945A8BA18FDF4A1005F55B7 /* main.m in Sources */,
+				F945A8E418FDF50C005F55B7 /* JALTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
